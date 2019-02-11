@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Git Test");
         
         //이거슨 집에서 가져온 문서 입니다.
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
